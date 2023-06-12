@@ -58,4 +58,6 @@ Data download, installation and setup combined should take less than 30 minutes 
 ###
 
 # Data
-The dataset with ShapeNet models rendered under camera and lighting variations can be accessed here:.
+The dataset with ShapeNet models rendered under camera and lighting variations can be accessed here: https://drive.google.com/file/d/1yY9jwHz80fTtPSL6Y86xWQOr7Uwzq-EU/view?usp=share_link. It can be downloaded programmatically using the following command:
+
+`!wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1yY9jwHz80fTtPSL6Y86xWQOr7Uwzq-EU' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1yY9jwHz80fTtPSL6Y86xWQOr7Uwzq-EU" -O shapenet_camera_light.zip && rm -rf /tmp/cookies.txt`
