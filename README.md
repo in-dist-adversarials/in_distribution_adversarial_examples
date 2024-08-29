@@ -1,5 +1,5 @@
 <div align="center">
-<h3>Adversarial examples within the training distribution: A widespread challenge.</h3>
+<h3>In-distribution adversarial attacks on object recognition models using gradient-free search.</h3>
   <img src="teaser_part_1.png" alt="Teaser Figure">
   
   <a href="#overview">Overview</a> •
