@@ -8,7 +8,7 @@
   <a href="#data">Accessing the data</a> •
 </div>
 
-This repository contains the codebase for our TMLR submission: *Adversarial examples within the training distribution: A widespread challenge.* Here you can find the code, demos and the data used for this project.
+This repository contains the codebase for our submission. You can find the code, demos and the data used for this project.
 
 # Overview
 Despite a plethora of proposed theories, understanding why deep neural networks are susceptible to adversarial attacks remains an open question. A promising recent strand of research investigates adversarial attacks within the training data distribution, providing a more stringent and worrisome definition for these attacks. These theories posit that the key issue is that in high dimensional datasets, most data points are close to the ground-truth class boundaries. This has been shown in theory for some simple data distributions, but it is unclear if this theory is relevant in practice. Here, we demonstrate the existence of in-distribution adversarial examples for object recognition. This result provides evidence supporting theories attributing adversarial examples to the proximity of data to ground-truth class boundaries, and calls into question other theories which do not account for this more stringent definition of adversarial attacks. These experiments are enabled by our novel gradient-free, evolutionary strategies (ES) based approach for finding in-distribution adversarial examples in 3D rendered objects, which we call CMA-Search.
